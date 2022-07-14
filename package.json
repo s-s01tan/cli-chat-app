@@ -1,0 +1,37 @@
+{
+  "name": "cli-chat-app",
+  "version": "1.0.0",
+  "description": "CLI Chat Application",
+  "main": "server.js",
+  "scripts": {
+    "client": "node client/app.js",
+    "server": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-s01tan/cli-chat-app.git"
+  },
+  "keywords": [
+    "node",
+    "socket",
+    "socket.io",
+    "realtime",
+    "express",
+    "mongoose",
+    "mongo"
+  ],
+  "author": "s-s01tan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s-s01tan/cli-chat-app/issues"
+  },
+  "homepage": "https://github.com/s-s01tan/cli-chat-app#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "inquirer": "^9.0.1",
+    "mongoose": "^6.4.4",
+    "socket.io": "^4.5.1"
+  }
+}
