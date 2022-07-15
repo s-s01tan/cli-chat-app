@@ -3,7 +3,7 @@ const quitApp = require('./quit')
 const registerUser = require('./register')
 
 // Welcome Menu
-const welcomeMenu = (inquirer) => {
+const welcomeMenu = async (inquirer) => {
     inquirer.prompt([
         {
             name: 'menuOperation',

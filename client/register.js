@@ -1,5 +1,5 @@
 // User Registration
-const registerUser = (inquirer) => {
+const registerUser = async (inquirer) => {
     let passTmp = ''
     inquirer.prompt([
         {

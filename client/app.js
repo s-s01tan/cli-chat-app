@@ -1,4 +1,8 @@
 const inquirer = require('inquirer')
 const welcomeMenu = require('./welcome')
 
-welcomeMenu(inquirer)
+const run = async (inquirer) => {
+    await welcomeMenu(inquirer)
+}
+
+run(inquirer)

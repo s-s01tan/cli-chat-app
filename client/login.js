@@ -1,5 +1,5 @@
 // User Login
-const loginUser = (inquirer) => {
+const loginUser = async (inquirer) => {
     inquirer.prompt([
         {
             name: 'username',
