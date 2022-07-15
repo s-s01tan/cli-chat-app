@@ -1,5 +1,5 @@
 const { connect, Schema, model } = require('mongoose')
-const { db_url } = require('../../config')
+const { db_url } = require('../../config')()
 const { generateUserSchema, generateMessageSchema, generateRoomSchema } = require('../schemas')
 require('colors')
 
