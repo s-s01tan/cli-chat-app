@@ -27,11 +27,13 @@
   },
   "homepage": "https://github.com/s-s01tan/cli-chat-app#readme",
   "dependencies": {
+    "axios": "^0.27.2",
     "colors": "^1.4.0",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "inquirer": "^8.0.0",
     "mongoose": "^6.4.4",
+    "morgan": "^1.10.0",
     "socket.io": "^4.5.1"
   }
 }
